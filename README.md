@@ -1,9 +1,6 @@
 # Flask Live CRUD
 
 Created by: Daniel Coelho
-Created time: April 6, 2023 9:52 AM
-Last edited by: Daniel Coelho
-Last edited time: April 6, 2023 10:05 AM
 
 O repositório Flask Live CRUD é uma aplicação de CRUD (Create, Read, Update, Delete) que roda em Docker com Flask. É possível clonar o repositório e executá-lo com apenas alguns comandos.
 
