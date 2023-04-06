@@ -21,28 +21,34 @@ git clone <https://github.com/olordecoelho/flask-live-crud.git>
 cd flask-live-crud
 
 ```
-*****EU EI DE TERMINAR*****
 
-1. Execute o seguinte comando para construir a imagem Docker:
+
+1. Execute o seguinte comando para iniciar um contêiner de banco de dados em segundo plano no Docker:
+
+```
+docker compose up -d flask_db
+
+```
+
+2. Execute o comando abaixo para construir as imagens dos serviços definidos no arquivo docker-compose.yml:
 
 ```
 docker compose build
 
 ```
-
-1. Finalmente, execute o comando abaixo para iniciar o aplicativo:
+3. Execute o comando abaixo para iniciar um serviço específico, chamado "flask_app", definido no arquivo docker-compose.yml:
 
 ```
-docker compose up flask-live-crud
+docker compose up flask_app
 
 ```
 
 ## Utilização
 
-Após a execução dos comandos de instalação, o aplicativo estará rodando em [http://localhost:5000](http://localhost:5000/).
+Após a execução dos comandos de instalação, o aplicativo estará rodando em http://localhost:4000 e o seu banco de dados em http://localhost:5432/.
 
-A página inicial exibirá uma lista de usuários pré-cadastrados, e você poderá navegar pelos links para adicionar, editar ou excluir usuários.
+Você poderá criar listas de usuários e também navegar pelos links para adicionar, editar ou excluir usuários.
 
 ## Contribuição
 
-Se você deseja contribuir para o desenvolvimento do Flask Live CRUD, sinta-se à vontade para fazer um fork do repositório e enviar suas alterações através de um pull request.
+Se você deseja contribuir para o melhoramento do Flask Live CRUD, sinta-se à vontade para fazer um fork do repositório e enviar suas alterações através de um pull request.
