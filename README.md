@@ -2,7 +2,7 @@
 
 Created by: Daniel Coelho
 
-O repositório Flask Live CRUD é uma aplicação de CRUD (Create, Read, Update, Delete) que roda em Docker com Flask. É possível clonar o repositório e executá-lo com apenas alguns comandos.
+Uma aplicação de CRUD (Create, Read, Update, Delete) que roda em Docker com Flask.
 
 ## Instalação
 
@@ -21,6 +21,7 @@ git clone <https://github.com/olordecoelho/flask-live-crud.git>
 cd flask-live-crud
 
 ```
+*****EU EI DE TERMINAR*****
 
 1. Execute o seguinte comando para construir a imagem Docker:
 
