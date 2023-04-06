@@ -11,7 +11,7 @@ Para instalar e executar o Flask Live CRUD, siga os seguintes passos:
 1. Clone o repositório do GitHub:
 
 ```
-git clone <https://github.com/olordecoelho/flask-live-crud.git>
+git clone https://github.com/olordecoelho/flask-live-crud.git
 
 ```
 
